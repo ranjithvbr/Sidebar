@@ -6,6 +6,7 @@ import Landingpage from "./components/landingpage";
 import Notfound from "./components/notfound";
 import Client from "./components/client";
 import Court from "./components/court";
+import Leaveapplication from './leaveapplication';
 
 export default class Routes extends Component{
     render(){
@@ -19,6 +20,8 @@ export default class Routes extends Component{
               <Route path="/court" exact component={Court} />
 
               <Route path="/client" exact component={Client} />
+
+              <Route path="/leaveapplication" exact component={Leaveapplication} />
 
               <Route component={Notfound} /> 
 

@@ -146,3 +146,83 @@
 //     </div>
 //   );
 // }
+
+// ---------------------------------
+
+// import React,{ Component } from 'react';
+// import Sidebar from '../sidebar';
+// import Navbar from 'react-bootstrap/Navbar';
+// import { Link } from 'react-router-dom';
+
+
+//   import {
+//     Menu as MenuIcon,
+//     MoveToInbox as InboxIcon,
+//     Mail as MailIcon
+//   } from '@material-ui/icons';
+  
+//   import {
+//     AppBar, Toolbar, IconButton, Typography,
+//     Drawer, CssBaseline,Divider,ListItem,ListItemIcon,
+//     ListItemText,List,MenuList,MenuItem
+//   } from '@material-ui/core'
+
+
+// class Client extends Component{
+//     render(){
+//         return (
+//             <div>
+//             <Sidebar>
+//             <AppBar position="static" className="mt-5">
+//                 <Toolbar variant="dense">
+//                     <IconButton edge="start" className={""} color="inherit" aria-label="menu">
+//                         {/* <MenuIcon /> */}
+//                     </IconButton>
+//                     <Typography variant="h6" color="inherit">
+//                         Photos
+//                     </Typography>
+//                 </Toolbar>
+//                 <MenuList>
+
+//             <MenuItem component={Link} to="/leaveapplication">
+//                 <ListItemIcon>
+//                   <InboxIcon />
+//                 </ListItemIcon>
+//                   <ListItemText primary="leaveapplication" />
+//             </MenuItem>
+
+//             <MenuItem component={Link} to="/client">
+//                 <ListItemIcon>
+//                   <InboxIcon />
+//                 </ListItemIcon>
+//                   <ListItemText primary="Client" />
+//             </MenuItem>
+
+//             <MenuItem component={Link} to="/court">
+//                 <ListItemIcon>
+//                   <InboxIcon />
+//                 </ListItemIcon>
+//                   <ListItemText primary="Court" />
+//             </MenuItem>
+
+//           </MenuList>
+//             </AppBar>
+                
+//             </Sidebar>    
+//           </div>
+//           );
+//     }
+   
+//   }
+
+//   export default Client;
+
+//   <div className={"mt-5"}>
+//                 <Navbar  bg="secondary" variant="dark" className="row topnavradius">
+//                     <Navbar.Brand href="/leaveapplication" className="col text-center">Leave Application</Navbar.Brand>
+//                     <Navbar.Brand href="#home" className="col">Permission Application</Navbar.Brand>
+//                     <Navbar.Brand href="#home" className="col text-center">On Duty Form</Navbar.Brand>
+//                     <Navbar.Brand href="#home" className="col">Leave Application(CEP)</Navbar.Brand>
+                    
+//                 </Navbar>
+//                 </div>

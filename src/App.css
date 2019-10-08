@@ -31,3 +31,20 @@ button:focus {
 .flex{
   display: flex
 }
+
+.topnavradius{
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px
+}
+
+.navbar-brand:focus {
+  background-color: lightsteelblue !important;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.margin{
+  position: relative;
+    top: 189px;
+    left: 400px;
+}
